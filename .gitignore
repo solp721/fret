@@ -4,5 +4,6 @@ bin/
 .fret/
 .claude/
 .mcp.json
+CLAUDE.md
 .DS_Store
 history.md
