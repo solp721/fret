@@ -1,6 +1,6 @@
 {
   "name": "fret-lint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convention linter for AI agents — CLI & MCP server",
   "type": "module",
   "main": "./build/index.js",
