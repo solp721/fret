@@ -22,7 +22,9 @@ Fret hooks into Claude Code's **PostToolUse hook** to run local static analysis 
 
 ```bash
 # Install
-npm install -g fret-lint
+npm install -g fret-lint    # npm
+yarn global add fret-lint   # yarn
+pnpm add -g fret-lint       # pnpm
 
 # Initialize in your project
 cd my-project
