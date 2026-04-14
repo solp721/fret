@@ -21,9 +21,8 @@ Fret hooks into Claude Code's **PostToolUse hook** to run local static analysis 
 ### 🚀 Quick Start
 
 ```bash
-# Install from source (npm publish coming soon)
-git clone https://github.com/solp721/fret.git
-cd fret && npm install && npm run build && npm link
+# Install
+npm install -g fret-lint
 
 # Initialize in your project
 cd my-project
