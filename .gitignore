@@ -1,0 +1,8 @@
+node_modules/
+build/
+bin/
+.fret/
+.claude/
+.mcp.json
+.DS_Store
+history.md

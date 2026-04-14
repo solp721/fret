@@ -1,0 +1,54 @@
+{
+  "name": "fret-lint",
+  "version": "0.1.0",
+  "description": "Convention linter for AI agents — CLI & MCP server",
+  "type": "module",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "bin": {
+    "fret": "./build/index.js"
+  },
+  "files": [
+    "build/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solp721/fret.git"
+  },
+  "keywords": [
+    "convention",
+    "linter",
+    "mcp",
+    "ai-agent",
+    "static-analysis",
+    "ast",
+    "claude-code",
+    "eslint"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.27.0",
+    "@babel/traverse": "^7.27.0",
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@rolldown/binding-darwin-arm64": "^1.0.0-rc.15",
+    "@types/babel__traverse": "^7.20.6",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.4"
+  }
+}
